@@ -31,6 +31,4 @@ is_contans('cycle', ['recycling', 'cyclic' ])
 
 print(string_info.calls_count + is_contans.calls_count)
 
-#print(is_contans('Urban', ['ban', 'BaNaN', 'urBAN']))
-#print(is_contans('cycle', ['recycling', 'cyclic' ]))
 
