@@ -5,8 +5,8 @@ def divide(fisrt, second):
     except ZeroDivisionError:
         result = inf
 
-    if result != 0:
+    if second != 0:
         print(f"Результат деления - {result}")
     else:
-        return inf
+        print(result)
 

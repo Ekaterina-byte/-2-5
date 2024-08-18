@@ -4,7 +4,7 @@ def divide(fisrt, second):
     except ZeroDivisionError:
         result = 0
 
-    if result != 0:
+    if second != 0:
         print(f"Результат деления - {result}")
     else:
         print("Результат деления - 'Ошибка'")
