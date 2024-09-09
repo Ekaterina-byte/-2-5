@@ -24,7 +24,7 @@ class Shop:
                 print(f"Продукт {product} уже есть в магазине")
             else:
                 file = open(self.__file_name, 'a')
-                file.write(product + '\n')
+                file.write(str(product) + '\n')
                 file.close()
 
 s1 = Shop()
