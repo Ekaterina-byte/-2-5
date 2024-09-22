@@ -1,8 +1,6 @@
 def add_everything_up(a,b):
 
     try:
-        a == str
-        b==int, float
         c=a+b
     except TypeError:
         print(a,b, sep='')
